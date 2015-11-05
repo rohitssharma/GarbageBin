@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_frag_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream_color"
+    tools:context="garbagebin.com.garbagebin.Timeline">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            layout="@layout/header"
+            android:id="@+id/header_lyt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true" />
+
+        <FrameLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bottom"
+            android:layout_below="@+id/header_lyt"
+            />
+        <include
+            android:id="@+id/bottom"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            layout="@layout/bottom_lyt"
+            android:layout_alignParentBottom="true"
+            />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/timeline_tutorial_imageView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY"
+        android:visibility="gone"
+        android:src="@mipmap/timeline_tutorial"/>
+
+</RelativeLayout>

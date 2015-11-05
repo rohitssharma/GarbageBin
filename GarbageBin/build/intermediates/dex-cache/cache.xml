@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/sharanjeet/Documents/Backups/GarbageBin backups/25 sept/GarbageBin/app/build/intermediates/exploded-aar/GarbageBin/volleey/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="53e2eabe5a1c561bcb24065320e43205ebed7399">
+        <dex dex="/home/sharanjeet/Documents/Backups/GarbageBin backups/25 sept/GarbageBin/app/build/intermediates/pre-dexed/debug/classes-7bd5495a4eb4243b821dcd4edc2b0ed5d47fca6b.jar" />
+    </item>
+
+</items>

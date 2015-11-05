@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/green"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/et_promocode_bg"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_background"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingRight="5dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="Name"
+                        android:textColor="@android:color/black"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"/>
+
+                    <EditText
+                        android:id="@+id/other_name_edittext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:textSize="14sp"
+                        android:textColor="@color/light_black"
+                        android:text="sdfs"
+                        android:padding="5dp"
+                        android:editable="false"
+                        android:focusable="false"
+
+                        android:singleLine="true"
+                        android:clickable="false"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="Residence"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_weight="1"/>
+
+                    <EditText
+                        android:id="@+id/other_residence_edittext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:textSize="14sp"
+                        android:textColor="@color/light_black"
+                        android:text="sdfs"
+                        android:editable="false"
+                        android:singleLine="true"
+                        android:focusable="false"
+                        android:clickable="false"
+                        android:padding="5dp"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="Level of Play"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_weight="1"/>
+                    <EditText
+                        android:id="@+id/other_levelPlay_edittext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:textSize="14sp"
+                        android:textColor="@color/light_black"
+                        android:text="sdfs"
+                        android:padding="5dp"
+                        android:editable="false"
+                        android:focusable="false"
+                        android:singleLine="true"
+                        android:clickable="false"
+                        android:layout_weight="1"/>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="Style of Play"
+                        android:textColor="@android:color/black"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"/>
+
+                    <EditText
+                        android:id="@+id/other_stylePlay_edittext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:textSize="14sp"
+                        android:textColor="@color/light_black"
+                        android:text="sdfs"
+                        android:padding="5dp"
+                        android:editable="false"
+                        android:focusable="false"
+                        android:singleLine="true"
+                        android:clickable="false"
+                        android:layout_weight="1"/>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="Plays"
+                        android:textColor="@android:color/black"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"/>
+
+                    <EditText
+                        android:id="@+id/other_plays_edittext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:textSize="14sp"
+                        android:textColor="@color/light_black"
+                        android:text="sdfs"
+                        android:padding="5dp"
+                        android:editable="false"
+                        android:singleLine="true"
+                        android:focusable="false"
+                        android:clickable="false"
+                        android:layout_weight="1"/>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@android:color/black"
+                        android:text="Age"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"/>
+
+                    <EditText
+                        android:id="@+id/other_age_edittext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:textSize="14sp"
+                        android:textColor="@color/light_black"
+                        android:text="sdfs"
+                        android:padding="5dp"
+                        android:editable="false"
+                        android:focusable="false"
+                        android:clickable="false"
+                        android:singleLine="true"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="Gender"
+                        android:textColor="@android:color/black"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"/>
+
+                    <EditText
+                        android:id="@+id/other_gender_edittext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:textSize="14sp"
+                        android:textColor="@color/light_black"
+                        android:text="sdfs"
+                        android:padding="5dp"
+                        android:editable="false"
+                        android:focusable="false"
+                        android:singleLine="true"
+                        android:clickable="false"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+
+
+                <TextView
+                    android:id="@+id/fav_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="@color/light_black"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingRight="5dp"
+                    android:background="@color/grey_color"
+                    android:textStyle="bold"
+                    android:text="@string/app_name"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="Tennis Shot"
+                        android:textColor="@android:color/black"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"/>
+
+                    <EditText
+                        android:id="@+id/other_tennisSlot_edittext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:textSize="14sp"
+                        android:textColor="@color/light_black"
+                        android:text="sdfs"
+                        android:padding="5dp"
+                        android:editable="false"
+                        android:focusable="false"
+                        android:clickable="false"
+                        android:singleLine="true"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="Female Tour Player"
+                        android:layout_marginLeft="5dp"
+
+                        android:textColor="@android:color/black"
+                        android:layout_weight="1"/>
+                    <EditText
+                        android:id="@+id/other_femaleTour_edittext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:textSize="14sp"
+                        android:textColor="@color/light_black"
+                        android:text="sdfs"
+                        android:padding="5dp"
+                        android:editable="false"
+                        android:focusable="false"
+                        android:singleLine="true"
+                        android:clickable="false"
+                        android:layout_weight="1"
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@android:color/black"
+                        android:text="Male Tour Player"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"/>
+
+                    <EditText
+                        android:id="@+id/other_maleTour_edittext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:textSize="14sp"
+                        android:textColor="@color/light_black"
+                        android:text="sdfs"
+                        android:editable="false"
+                        android:focusable="false"
+                        android:clickable="false"
+                        android:singleLine="true"
+                        android:padding="5dp"
+                        android:layout_weight="1"
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@android:color/black"
+                        android:text="Racket"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"/>
+
+                    <EditText
+                        android:id="@+id/other_racket_edittext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:textSize="14sp"
+                        android:textColor="@color/light_black"
+                        android:text="sdfs"
+                        android:padding="5dp"
+                        android:editable="false"
+                        android:singleLine="true"
+                        android:focusable="false"
+                        android:clickable="false"
+                        android:layout_weight="1"
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="Grip Size"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_weight="1"/>
+
+                    <EditText
+                        android:id="@+id/other_gripsize_edittext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:textSize="14sp"
+                        android:textColor="@color/light_black"
+                        android:text="sdfs"
+                        android:padding="5dp"
+                        android:editable="false"
+                        android:focusable="false"
+                        android:clickable="false"
+                        android:singleLine="true"
+                        android:layout_weight="1"
+                        />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="Strings"
+                        android:textColor="@android:color/black"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"/>
+
+                    <EditText
+                        android:id="@+id/other_strings_edittext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:textSize="14sp"
+                        android:textColor="@color/light_black"
+                        android:text="sdfs"
+                        android:padding="5dp"
+                        android:editable="false"
+                        android:focusable="false"
+                        android:clickable="false"
+                        android:singleLine="true"
+                        android:layout_weight="1"
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="Shoes"
+                        android:textColor="@android:color/black"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"/>
+
+                    <EditText
+                        android:id="@+id/other_shoes_edittext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:textSize="14sp"
+                        android:textColor="@color/light_black"
+                        android:text="sdfs"
+                        android:padding="5dp"
+                        android:editable="false"
+                        android:focusable="false"
+                        android:clickable="false"
+                        android:singleLine="true"
+                        android:layout_weight="1"
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="Apparel"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_weight="1"/>
+
+                    <EditText
+                        android:id="@+id/other_apparel_edittext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:textSize="14sp"
+                        android:textColor="@color/light_black"
+                        android:text="sdfs"
+                        android:padding="5dp"
+                        android:editable="false"
+                        android:focusable="false"
+                        android:clickable="false"
+                        android:singleLine="true"
+                        android:layout_weight="1"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="Sun Glasses"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@android:color/black"
+                        android:layout_weight="1"/>
+
+                    <EditText
+                        android:id="@+id/other_sunGlasses_edittext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:textSize="14sp"
+                        android:textColor="@color/light_black"
+                        android:text="sdfs"
+                        android:padding="5dp"
+                        android:editable="false"
+                        android:focusable="false"
+                        android:clickable="false"
+                        android:singleLine="true"
+                        android:layout_weight="1"
+                        />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="Why do you Love Tennis?"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    />
+                <EditText
+                    android:id="@+id/other_whyLove_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@color/white"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/light_black"
+                    android:text="sdfs"
+                    android:padding="5dp"
+                    android:layout_marginTop="5dp"
+                    android:inputType="textMultiLine"
+                    android:gravity="top"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:clickable="false"
+                    android:layout_weight="1"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
